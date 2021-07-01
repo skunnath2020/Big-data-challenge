@@ -56,7 +56,7 @@ But are Vine reviews truly trustworthy? The task is to investigate whether Vine 
 
 ## Hints and Considerations
 
-* Be sure that to start each notebook with following code in the first cell and update the Spark version.
+* Started each notebook with following code in the first cell and update the Spark version.
 
 ```python
 import os
@@ -83,28 +83,9 @@ import findspark
 findspark.init()
 ```
 
-* For connection to Postgres run the following code in the next cell.
+* For connection to Postgres ran the following code .
 
 ```python
 !wget https://jdbc.postgresql.org/download/postgresql-42.2.9.jar
 ```
 
-- - -
-
-## Submission
-
-* **Important** be sure to clean up all your AWS resources. Consult the [AWS cleanup guide](../Resources/AWS_cleanup.pdf) and [AWS check billing guide](../Resources/AWS_check_billing.pdf) as reference.
-
-* Download you Google Colab notebooks as `.ipynb` files and upload those to GitHub.
-
-* Copy your SQL queries into `.sql` files and upload to GitHub.
-
-* **Important:** Do not upload notebooks that contain your RDS password and endpoint. Be sure to delete them before making your notebook public!
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-- - -
-
-### Copyright
-
-Trilogy Education Services © 2020. All Rights Reserved.
