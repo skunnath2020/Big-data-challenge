@@ -30,7 +30,7 @@ There are two levels to this assignment. The second level is optional but highly
 
   * **Load** the DataFrames that correspond to tables into an RDS instance. **Note:** This process can take up to 10 minutes for each. Be sure that everything is correct before uploading.
 
-### Level 2 (Optional)
+### Level 2 
 
 In Amazon's Vine program, reviewers receive free products in exchange for reviews.
 
