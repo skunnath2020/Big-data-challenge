@@ -3,9 +3,9 @@
 
 ## Background
 
-This assignment put my ETL skills to test. Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon makes these datasets publicly available. However, they are quite large and can exceed the capacity of local machines to handle. One dataset alone contains over 1.5 million rows; with over 40 datasets, this can be quite taxing on the average local computer. My first goal for this assignment is to perform the ETL process completely in the cloud and upload a DataFrame to an RDS instance. The second goal will be to use PySpark or SQL to perform a statistical analysis of selected data.
+This project put my ETL skills to test. Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon makes these datasets publicly available. However, they are quite large and can exceed the capacity of local machines to handle. One dataset alone contains over 1.5 million rows; with over 40 datasets, this can be quite taxing on the average local computer. My first goal for this assignment is to perform the ETL process completely in the cloud and upload a DataFrame to an RDS instance. The second goal will be to use PySpark or SQL to perform a statistical analysis of selected data.
 
-There are two levels to this assignment. The second level is optional but highly recommended.
+There are two levels to this Project. 
 
 1. Create DataFrames to match production-ready tables from two big Amazon customer review datasets.
 2. Analyze whether reviews from Amazon's Vine program are trustworthy.
@@ -16,7 +16,7 @@ There are two levels to this assignment. The second level is optional but highly
 
 ### Level 1
 
-* Use the furnished schema to create tables in the RDS database.
+* Used the furnished schema to create tables in the RDS database.
 
 * Create two separate Google Colab notebooks and **extract** any two datasets from the list at [review dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), one into each notebook.
 
